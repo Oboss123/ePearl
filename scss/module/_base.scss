@@ -1,7 +1,35 @@
-/*NAVICATION BAR*/
+/*NAVIGATION BAR*/
 
-navbar{
+.navbar{
+  background:#FAFAFA;
+  border-bottom:1px solid #ada8a8;
+
+   ul li a{
+          color:#000000;
+          font-size:13px;
+          font-style:normal;
+          font-family:"arial";
+
+  }
+
+  navbar-nav {
+  float:left;
+  }
+
+  ul li a .sign-in{
+  color:#4444fc;
+  }
+}
+
+/***SECTION***/
+
+section.showcase{
 	
-	background:$navBgcolor;
-	color:$primaFontColor;
+	.container{
+	
+	
+	height:200px;
+	background:#000;
+	padding:90px 15px;
+	}
 }

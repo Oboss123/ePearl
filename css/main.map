@@ -3,16 +3,16 @@
 	"file": "../scss/main.css",
 	"sources": [
 		"../scss/main.scss",
-		"../scss/module/_variable.scss",
+		"../scss/module/_base.scss",
 		"../scss/module/_mixin.scss",
-		"../scss/module/_base.scss"
+		"../scss/module/_variable.scss"
 	],
 	"sourcesContent": [
-		"@import'module/variable';\r\n@import'module/mixin';\r\n@import'module/base';",
-		"$navBgcolor:#EBEDF3;\r\n$primaFontColor:#000;",
+		"@import 'module/base';\r\n@import 'module/mixin';\r\n@import 'module/variable';",
+		"/*NAVIGATION BAR*/\r\n\r\n.navbar{\r\n  background:#FAFAFA;\r\n  border-bottom:1px solid #ada8a8;\r\n\r\n   ul li a{\r\n          color:#000000;\r\n          font-size:13px;\r\n          font-style:normal;\r\n          font-family:\"arial\";\r\n\r\n  }\r\n\r\n  navbar-nav {\r\n  float:left;\r\n  }\r\n\r\n  ul li a .sign-in{\r\n  color:#4444fc;\r\n  }\r\n}\r\n\r\n/***SECTION***/\r\n\r\nsection.showcase{\r\n\t\r\n\t.container{\r\n\t\r\n\t\r\n\theight:200px;\r\n\tbackground:#000;\r\n\tpadding:90px 15px;\r\n\t}\r\n}",
 		"",
-		"/*NAVICATION BAR*/\r\n\r\nnavbar{\r\n\t\r\n\tbackground:$navBgcolor;\r\n\tcolor:$primaFontColor;\r\n}"
+		"$bgColorNav:#49C5B6;"
 	],
-	"mappings": "AGAA,kBAAkB;;AAElB,AAAA,MAAM,CAAA;EAEL,UAAU,EFJC,OAAO;EEKlB,KAAK,EFJU,IAAI;CEKnB",
+	"mappings": "ACAA,kBAAkB;;AAElB,AAAA,OAAO,CAAA;EACL,UAAU,EAAC,OAAQ;EACnB,aAAa,EAAC,iBAAkB;CAiBjC;;;AAnBD,AAIS,OAJF,CAIJ,EAAE,CAAC,EAAE,CAAC,CAAC,CAAA;EACA,KAAK,EAAC,OAAQ;EACd,SAAS,EAAC,IAAK;EACf,UAAU,EAAC,MAAO;EAClB,WAAW,EAAC,OAAQ;CAE3B;;;AAVH,AAYE,OAZK,CAYL,UAAU,CAAC;EACX,KAAK,EAAC,IAAK;CACV;;;AAdH,AAgBU,OAhBH,CAgBL,EAAE,CAAC,EAAE,CAAC,CAAC,CAAC,QAAQ,CAAA;EAChB,KAAK,EAAC,OAAQ;CACb;;AAGH,eAAe;;AAEf,AAEC,OAFM,AAAA,SAAS,CAEf,UAAU,CAAA;EAGV,MAAM,EAAC,KAAM;EACb,UAAU,EAAC,IAAK;EAChB,OAAO,EAAC,SAAU;CACjB",
 	"names": []
 }
