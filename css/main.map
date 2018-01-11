@@ -1,0 +1,18 @@
+{
+	"version": 3,
+	"file": "../scss/main.css",
+	"sources": [
+		"../scss/main.scss",
+		"../scss/module/_variable.scss",
+		"../scss/module/_mixin.scss",
+		"../scss/module/_base.scss"
+	],
+	"sourcesContent": [
+		"@import'module/variable';\r\n@import'module/mixin';\r\n@import'module/base';",
+		"$navBgcolor:#EBEDF3;\r\n$primaFontColor:#000;",
+		"",
+		"/*NAVICATION BAR*/\r\n\r\nnavbar{\r\n\t\r\n\tbackground:$navBgcolor;\r\n\tcolor:$primaFontColor;\r\n}"
+	],
+	"mappings": "AGAA,kBAAkB;;AAElB,AAAA,MAAM,CAAA;EAEL,UAAU,EFJC,OAAO;EEKlB,KAAK,EFJU,IAAI;CEKnB",
+	"names": []
+}
